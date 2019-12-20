@@ -17,6 +17,9 @@ public interface ApiInterface {
 
     @GET("posts/1")
     public Call<Post> getPost();
+    
+    @GET("posts/1")
+    public Call<Post> getPost1();
 
     @GET("posts/{id}")
     public Call<Post> getPostPath(@Path("id") int id);
