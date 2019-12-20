@@ -17,7 +17,7 @@ public interface ApiInterface {
 
     @GET("posts/1")
     public Call<Post> getPost();
-    
+
     @GET("posts/1")
     public Call<Post> getPost1();
 
